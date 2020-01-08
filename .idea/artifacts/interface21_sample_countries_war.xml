@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="interface21-sample-countries:war">
+    <output-path>$PROJECT_DIR$/interface21-sample/interface21-sample-countries/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>interface21-sample-countries</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="interface21-sample-countries-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="interface21-sample-countries:war exploded" />
+    </root>
+  </artifact>
+</component>

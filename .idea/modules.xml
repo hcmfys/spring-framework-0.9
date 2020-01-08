@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/interface21.iml" filepath="$PROJECT_DIR$/interface21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface21-framework/interface21-framework.iml" filepath="$PROJECT_DIR$/interface21-framework/interface21-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface21-sample/interface21-sample.iml" filepath="$PROJECT_DIR$/interface21-sample/interface21-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface21-sample/interface21-sample-countries/interface21-sample-countries.iml" filepath="$PROJECT_DIR$/interface21-sample/interface21-sample-countries/interface21-sample-countries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interface21-sample/interface21-sample-petclinic/interface21-sample-petclinic.iml" filepath="$PROJECT_DIR$/interface21-sample/interface21-sample-petclinic/interface21-sample-petclinic.iml" />
+    </modules>
+  </component>
+</project>

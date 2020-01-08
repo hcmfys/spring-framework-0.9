@@ -62,31 +62,7 @@ public class AopProxyTests extends TestCase {
         }
     }
 
-    public void testInterceptorIsInvoked() throws Throwable {
-        // Test return value
-        int age = 25;
-        MockControl miControl = EasyMock.controlFor(MethodInterceptor.class);
-        MethodInterceptor mi = (MethodInterceptor) miControl.getMock();
 
-        ProxyConfig pc = new DefaultProxyConfig(new Class[]{ITestBean.class}, false, null);
-        pc.addInterceptor(mi);
-        AopProxy aop = new AopProxy(pc);
-
-        // Really would like to permit null arg:can't get exact mi
-        mi.invoke(null);
-        //mi.invoke(new MethodInvocationImpl(aop, null, ITestBean.class,
-        //	ITestBean.class.getMethod("getAge", null),
-        //	null, l, r));
-        //miControl.
-        //miControl.setReturnValue(new Integer(age));
-        // Have disabled strong argument checking
-        miControl.setDefaultReturnValue(new Integer(age));
-        miControl.activate();
-
-        ITestBean tb = (ITestBean) aop.getProxy();
-        assertTrue("correct return value", tb.getAge() == age);
-        miControl.verify();
-    }
 
     public void testContext() throws Throwable {
         testContext(true);
