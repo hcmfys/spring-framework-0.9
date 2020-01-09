@@ -33,7 +33,6 @@
     <orderEntry type="library" name="Maven: asm:asm:3.1" level="project" />
     <orderEntry type="library" name="Maven: oro:oro:2.0.6" level="project" />
     <orderEntry type="library" name="Maven: net.sf.hibernate:hibernate:2.1.8" level="project" />
-    <orderEntry type="library" name="Maven: javax.ejb:ejb:2.0" level="project" />
     <orderEntry type="library" name="Maven: javax.jdo:jdo-api:3.0" level="project" />
     <orderEntry type="library" name="Maven: javax.transaction:transaction-api:1.1" level="project" />
     <orderEntry type="library" name="Maven: javax.ejb:ejb-api:3.0" level="project" />

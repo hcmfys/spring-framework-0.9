@@ -24,7 +24,6 @@
           <element id="library" level="project" name="Maven: asm:asm:3.1" />
           <element id="library" level="project" name="Maven: oro:oro:2.0.6" />
           <element id="library" level="project" name="Maven: net.sf.hibernate:hibernate:2.1.8" />
-          <element id="library" level="project" name="Maven: javax.ejb:ejb:2.0" />
           <element id="library" level="project" name="Maven: javax.jdo:jdo-api:3.0" />
           <element id="library" level="project" name="Maven: javax.transaction:transaction-api:1.1" />
           <element id="library" level="project" name="Maven: javax.ejb:ejb-api:3.0" />

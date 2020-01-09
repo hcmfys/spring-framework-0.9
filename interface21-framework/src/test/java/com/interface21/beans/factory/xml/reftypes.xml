@@ -8,7 +8,7 @@
 
 <beans>
 
-    <bean id="jenny" class="com.interface21.beans.TestBean">
+    <bean id="jenny" class="com.interface21.test.TestBean">
         <property name="name">
             <value>Jenny</value>
         </property>
@@ -20,7 +20,7 @@
         </property>
     </bean>
 
-    <bean id="david" class="com.interface21.beans.TestBean">
+    <bean id="david" class="com.interface21.test.TestBean">
         <property name="name">
             <value>David</value>
         </property>
@@ -32,7 +32,7 @@
         </property>
     </bean>
 
-    <bean id="jenks" class="com.interface21.beans.TestBean" singleton="false">
+    <bean id="jenks" class="com.interface21.test.TestBean" singleton="false">
         <property name="name">
             <value>Andrew</value>
         </property>
@@ -44,7 +44,7 @@
         </property>
     </bean>
 
-    <bean id="emma" class="com.interface21.beans.TestBean">
+    <bean id="emma" class="com.interface21.test.TestBean">
         <property name="name">
             <value>Emma</value>
         </property>
@@ -56,7 +56,7 @@
         </property>
     </bean>
 
-    <bean id="georgia" class="com.interface21.beans.TestBean">
+    <bean id="georgia" class="com.interface21.test.TestBean">
         <property name="name">
             <value>Georgia</value>
         </property>
@@ -68,7 +68,7 @@
         </property>
     </bean>
 
-    <bean id="ego" class="com.interface21.beans.TestBean">
+    <bean id="ego" class="com.interface21.test.TestBean">
         <property name="name">
             <value>ego</value>
         </property>
@@ -81,5 +81,4 @@
     </bean>
 
 </beans>
-	
-	
+
